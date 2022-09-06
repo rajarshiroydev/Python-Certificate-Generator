@@ -29,7 +29,7 @@ event_name_len = len(event_name)
 ```
 <ul>
   <li>Paste the link of the folder in save_path where you would want to save the certificates.
-  <li>Here I have written 2 lines of font files because a lot of the time, we need to change the event name for a different set of participants. <br>If there are more fields to be written, just add more such lines. Also, this gives us the freedom to change the font file and size for each text independently. (In my case, there were 2 fields and so the code is written that way)
+  <li>Here I have written 2 lines of font files because lots of time we need to change the event name for a different set of participants. <br>If there are more fields to be written, just add more such lines. Also, this gives us the freedom to change the font file and size for each text independently. (In my case, there were 2 fields and so the code is written that way)
   <li>The certificate file name should be written in place of template.png.
   <li>event_name is optional and can be used if a second field is required. Refer to the second point.
 </ul>
