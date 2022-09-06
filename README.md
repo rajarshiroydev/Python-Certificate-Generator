@@ -70,12 +70,13 @@ for i in name_list:
   <li>The numerical values will have to be adjusted according to the dimensions of the certificate and placement of the text.
   <li>Use number of draw.text lines as per need.
 </ul
-  
+<br>
+<br>
 
-Working:
+## Showcase
 | Template      | Generated |
 | ----------- | ----------- |
-| ![Template](https://github.com/roy-rajarshi/Certificate-Generator/blob/main/template.png)      |        |
+| ![Template](https://github.com/roy-rajarshi/Certificate-Generator/blob/main/template.png)      | ![Generated](https://github.com/roy-rajarshi/Certificate-Generator/blob/main/generated.png)       |
   
   
   
