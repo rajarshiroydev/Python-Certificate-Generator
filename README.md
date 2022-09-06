@@ -29,9 +29,9 @@ event_name_len = len(event_name)
 ```
 <ul>
   <li>Paste the link of the folder in save_path where you would want to save the certificates.
-  <li>Here I have written 2 lines of font files because a lot of the times, we need to change the event for different set of participants. If there are more fields to be written, just add more such lines. Also this gives us the freedom to change the font file and size for each text. (In my case, there were 2 fields and so the code is written that way)
+  <li>Here I have written 2 lines of font files because a lot of the time, we need to change the event for a different set of participants. If there are more fields to be written, just add more such lines. Also, this gives us the freedom to change the font file and size for each text. (In my case, there were 2 fields and so the code is written that way)
   <li>The certificate file name should be written in place of template.png.
-  <li>event_name is optional and can be used if a second field is required. Refer second point.
+  <li>event_name is optional and can be used if a second field is required. Refer to the second point.
 </ul>
 <br>
 <br>
@@ -47,7 +47,7 @@ for item in names:
 ```
 <ul>
   <li>name_list[] is for storing the names in a list from a text file.
-  <li>The .txt file name should me written in place of names.txt.
+  <li>The .txt file name should be written in place of names.txt.
   <li>item[:-1] else it will throw an error because of '\n' in each line. <br>title() as data may not be clean and this will make the names in Title Case. <br>strip() as the data may have extra spaces on both sides.
 </ul>
 <br>
@@ -67,8 +67,8 @@ for i in name_list:
 ```
 <ul>
   <li>The certificate file name should be written in place of template.png.
-  <li>The numerical values will have to be adjusted according to the dimensions of the certificate and placement of the text.
-  <li>Use number of draw.text lines as per need.
+  <li>The numerical values will have to be adjusted according to the dimensions of the certificate and the placement of the text.
+  <li>Use the number of draw.text lines as per need.
 </ul
 <br>
 <br>
