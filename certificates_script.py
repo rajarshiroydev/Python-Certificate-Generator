@@ -5,7 +5,7 @@ font_file1 = ImageFont.truetype(r'Font/GreatVibes-Regular.ttf', 140)
 font_file2 = ImageFont.truetype(r'Font/GreatVibes-Regular.ttf', 140)
 font_colour = "#000000"
 
-template = Image.open(r'participants.png')
+template = Image.open(r'template.png')
 WIDTH, HEIGHT = template.size
 
 event_name = ""
@@ -21,7 +21,7 @@ for item in names:
 print(name_list)
 
 for i in name_list:
-    image_source = Image.open(r'participants.png')
+    image_source = Image.open(r'template.png')
     draw = ImageDraw.Draw(image_source)
     name_width = draw.textlength(i, font = font_file1)
     name_height = draw.textlength(i, font = font_file1)
