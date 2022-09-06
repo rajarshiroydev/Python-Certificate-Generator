@@ -68,7 +68,7 @@ for i in name_list:
 <ul>
   <li>The certificate file name should be written in place of template.png.
   <li>The numerical values will have to be adjusted according to the dimensions of the certificate and the placement of the text.
-  <li>Use the number of draw.text lines as per need.
+  <li>Use of draw.text lines depends on your need.
 </ul
 <br>
 <br>
