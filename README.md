@@ -29,7 +29,7 @@ event_name_len = len(event_name)
 ```
 <ul>
   <li>Paste the link of the folder in save_path where you would want to save the certificates.
-  <li>Here I have written 2 lines of font files because a lot of the time, we need to change the event for a different set of participants. If there are more fields to be written, just add more such lines. Also, this gives us the freedom to change the font file and size for each text. (In my case, there were 2 fields and so the code is written that way)
+  <li>Here I have written 2 lines of font files because a lot of the time, we need to change the event name for a different set of participants. <br>If there are more fields to be written, just add more such lines. Also, this gives us the freedom to change the font file and size for each text independently. (In my case, there were 2 fields and so the code is written that way)
   <li>The certificate file name should be written in place of template.png.
   <li>event_name is optional and can be used if a second field is required. Refer to the second point.
 </ul>
@@ -48,7 +48,7 @@ for item in names:
 <ul>
   <li>name_list[] is for storing the names in a list from a text file.
   <li>The .txt file name should be written in place of names.txt.
-  <li>item[:-1] else it will throw an error because of '\n' in each line. <br>title() as data may not be clean and this will make the names in Title Case. <br>strip() as the data may have extra spaces on both sides.
+  <li>item[:-1] else it will throw an error because of '\n' in each line. <br>title() as data may not be clean and this will format the names in Title Case. <br>strip() in order to get rid of extra spaces on either sides.
 </ul>
 <br>
 <br>
