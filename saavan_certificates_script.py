@@ -1,6 +1,6 @@
 from PIL import Image, ImageFont, ImageDraw
 
-save_path = "/Users/rajarshiroy/Documents/Saavan Certificates/Esports/Shah Maat/Shah Maat Participants"
+save_path = ""
 font_file1 = ImageFont.truetype(r'Font/GreatVibes-Regular.ttf', 140)
 font_file2 = ImageFont.truetype(r'Font/GreatVibes-Regular.ttf', 140)
 font_colour = "#000000"
@@ -8,7 +8,7 @@ font_colour = "#000000"
 template = Image.open(r'participants.png')
 WIDTH, HEIGHT = template.size
 
-event_name = "Shah Maat"
+event_name = ""
 event_name_len = len(event_name)
 
 name_list = []
