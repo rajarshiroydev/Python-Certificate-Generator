@@ -8,7 +8,6 @@
 </ul>
 <br>
 <br>
-
 ## Explaining the code
 
 Using [Pillow Module](https://pypi.org/project/Pillow/) to write the text on the certificate.
