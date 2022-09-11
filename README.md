@@ -8,7 +8,6 @@
 </ul>
 <br>
 <br>
-<br>
 
 ## Explaining the code
 
